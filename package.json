@@ -1,5 +1,5 @@
 {
-  "name": "@peartherapeutics/react-native-hockeyapp",
+  "name": "react-native-hockeyapp",
   "version": "0.6.1",
   "description": "HockeyApp plugin for React Native supporting Android and iOS.",
   "main": "index.js",

@@ -1,6 +1,6 @@
 {
   "name": "react-native-hockeyapp",
-  "version": "0.6.1",
+  "version": "0.1.0",
   "description": "HockeyApp plugin for React Native supporting Android and iOS.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,10 @@
     "type": "git",
     "url": "https://github.com/peartherapeutics/react-native-hockeyapp"
   },
+  "bugs": {
+    "url": "https://github.com/peartherapeutics/react-native-hockeyapp/issues"
+  },
+  "homepage": "https://github.com/peartherapeutics/react-native-hockeyapp",
   "peerDependencies": {
     "react-native": ">= 0.14",
     "invariant": "^2.2.0"

@@ -209,7 +209,6 @@ You have available these methods:
 HockeyApp.configure(HockeyAppId: string, autoSendCrashReports: boolean = true, authenticationType: AuthenticationType = AuthenticationType.Anonymous, appSecret: string = '', ignoreDefaultHandler: string = false); // Configure the settings
 HockeyApp.start(); // Start the HockeyApp integration
 HockeyApp.checkForUpdate(); // Check if there's new version and if so trigger update
-HockeyApp.feedback(); // Ask user for feedback.
 HockeyApp.addMetadata(metadata: object); // Add metadata to crash report.  The argument must be an object with key-value pairs.
 HockeyApp.generateTestCrash(); // Generate test crash. Only works in no-debug mode.
 ```

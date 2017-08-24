@@ -29,10 +29,6 @@ module.exports = {
         checkInstalled();
         RNHockeyApp.checkForUpdate();
     },
-    feedback() {
-        checkInstalled();
-        RNHockeyApp.feedback();
-    },
     addMetadata(metadata) {
         checkInstalled();
         var json = JSON.stringify(metadata);
@@ -47,4 +43,3 @@ module.exports = {
         RNHockeyApp.trackEvent(eventName);
     }
 }
-

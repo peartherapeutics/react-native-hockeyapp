@@ -31,10 +31,11 @@ public class RNHockeyAppPackage implements ReactPackage {
     return modules;
   }
 
-  @Override
-  public List<Class<? extends JavaScriptModule>> createJSModules() {
-    return Collections.emptyList();
-  }
+// No longer needed by RN 0.55+
+//  @Override
+//  public List<Class<? extends JavaScriptModule>> createJSModules() {
+//    return Collections.emptyList();
+//  }
 
   @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
